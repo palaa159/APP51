@@ -14,7 +14,11 @@
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <!-- angular localstorage -->
+    <script src="lib/ng-modules/angular-local-storage.min.js"></script>
     <script src="lib/libCordova/ng-cordova.min.js"></script>
+    <!-- Load modules -->
+    <script src="lib/modules/aes.js"></script>
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
@@ -26,9 +30,9 @@
   </head>
   <body ng-app="app">
 
-    <ion nav-view>
+    <ion-nav-view>
       <!-- views go here -->
-    </ion nav-view>
+    </ion-nav-view>
 
   </body>
 </html>

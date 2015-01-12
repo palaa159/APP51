@@ -1,1 +1,5 @@
 /* Empty. Add your own CSS if you like */
+
+.form-control {
+	border-bottom: 2px solid black !important;
+}
